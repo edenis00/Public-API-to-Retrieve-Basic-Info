@@ -1,7 +1,9 @@
 # API Project
 
+
 ## Description
 This is a FastAPI project with an endpoint that gives you an Email Address, Current datetime in ISO 8601 formatted timestamp, and the GitHub URL.
+
 
 ## Installation (Locally)
     git clone "<https://github.com/edenis00/Public-API-to-Retrieve-Basic-Info>"
@@ -14,13 +16,16 @@ Step 3 Install the dependencies:
     pip install -r requirements.txt
 
 
+
 ## Usage
 Step 1 Running the FastAPI project:
     uvicorn main:app --reload
 
 
+
 ## Endpoint URL
 'GET' - '/project'
+
 
 ## Response
 status code: 200 ok
