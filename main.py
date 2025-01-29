@@ -26,6 +26,6 @@ def index():
         content={
             "Email Address": "edenis0072@gmail.com",
             "Datetime": current_datetime,
-            "Github Repo": "<https://github.com/edenis00/Public-API-to-Retrieve-Basic-Info>",
+            "Github Repo": "https://github.com/edenis00/Public-API-to-Retrieve-Basic-Info",
         },
     )
