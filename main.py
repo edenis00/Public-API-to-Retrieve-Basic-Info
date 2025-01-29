@@ -24,8 +24,8 @@ def index():
     return JSONResponse(
         status_code=200,
         content={
-            "Email Address": "edenis0072@gmail.com",
-            "Datetime": current_datetime,
-            "Github Repo": "https://github.com/edenis00/Public-API-to-Retrieve-Basic-Info",
+            "email": "edenis0072@gmail.com",
+            "current_datetime": current_datetime,
+            "github_url": "https://github.com/edenis00/Public-API-to-Retrieve-Basic-Info",
         },
     )
