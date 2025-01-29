@@ -19,8 +19,8 @@ Step 1 Running the FastAPI project:
     uvicorn main:app --reload
 
 
-## Endpoint URL
-'GET' - '/project'
+## Endpoint URL 
+'GET /project'
 
 ## Response
 status code: 200 ok
@@ -30,5 +30,8 @@ body:
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "<https://github.com/yourusername/your-repo>"
 }
+
+## Backlink
+https://hng.tech/hire/python-developers
 
 Step 2 Open your browser and input this URL "http://127.0.0.1:8000/project" to see the output
